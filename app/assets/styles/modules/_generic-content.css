@@ -1,0 +1,12 @@
+.generic-content {
+  p{
+    line-height: 1.5;
+    margin: 1.5rem 0;
+    @mixin forSmall {
+      font-size: 1.12rem;
+    }
+  }
+  p a {
+    font-weight: 700;
+  }
+}

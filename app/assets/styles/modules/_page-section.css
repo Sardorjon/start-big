@@ -1,0 +1,10 @@
+.page-section {
+  padding: .9rem 0;
+  @mixin forMedium {
+    padding: 4.5rem 0;
+  }
+  &--blue {
+    background-color: #2f5572;
+    color: #fff;
+  }
+}
