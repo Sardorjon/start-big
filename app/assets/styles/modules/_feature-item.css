@@ -1,0 +1,34 @@
+.feature-item {
+  position: relative;
+  padding-bottom: 2.5rem;
+  @mixin forSmall {
+    padding-left: 6rem;
+  }
+  &-icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: -.6rem;
+
+    @mixin forSmall {
+      position: absolute;
+      left: 0;
+      margin-top: 1rem;
+    }
+  }
+  &-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: .7rem;
+    margin-bottom: .5rem;
+    text-align: center;
+
+    @mixin forSmall  {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+      text-align: left;
+      margin-bottom: .8rem;
+    }
+
+  }
+
+}
