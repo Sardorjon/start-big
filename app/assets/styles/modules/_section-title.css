@@ -6,7 +6,10 @@
     font-size: 3.75rem;
   }
   strong {
-    font-weight: 500;
+    font-weight: bold;
+  }
+  &--blue {
+    color:$mainBlue;
   }
   &__icon {
     display: block;
@@ -15,6 +18,8 @@
     margin-bottom: .6rem;
 
     @mixin forSmall {
+      position: relative;
+      top: .8rem;
       display: inline-block;
       margin-left: 0;
       margin-right: .7rem;
